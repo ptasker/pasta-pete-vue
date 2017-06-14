@@ -1,6 +1,6 @@
-# y
+# Pete's Pasta
 
-> A Vue.js project
+> A Vue.js project based on `vue-cli`'s Webpack template to compare Vue.js and React. Companion repo: https://github.com/ptasker/pasta-pete-react
 
 ## Build Setup
 
