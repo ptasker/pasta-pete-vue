@@ -58,11 +58,6 @@ body {
   padding: 30px;
 }
 
-
-.pasta-dish img{
-  width:100%;
-}
-
 /*
  * Header
  */
@@ -136,8 +131,17 @@ mark{
 }
 
 .pasta-dish{
-  margin: 35px 0;
+  margin: 45px 0;
 }
+
+.pasta-dish img{
+  width:100%;
+}
+
+.pasta-dish h3{
+  margin-top:0;
+}
+
 .logo{
   animation: App-logo-spin infinite 20s linear;
   height: 80px;

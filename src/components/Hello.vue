@@ -1,14 +1,16 @@
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
-    <p><a v-bind:href='url'>DBI!</a></p>
+    <p>
+      <a v-bind:href='url'>DBI!</a>
+    </p>
   </div>
 </template>
 
 <script>
 export default {
   name: 'hello',
-  data () {
+  data() {
     return {
       msg: 'Pete\'s Pasta',
       url: 'https://deliciousbrains.com'
@@ -19,7 +21,8 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-h1, h2 {
+h1,
+h2 {
   font-weight: normal;
 }
 

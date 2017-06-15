@@ -2,7 +2,7 @@
 module.exports = {
   dish1: {
     name: 'Spaghetti and Meatballs',
-    image: 'http://media.istockphoto.com/photos/lasagne-picture-id621128404?s=190x190',
+    image: 'http://food.fnr.sndimg.com/content/dam/images/food/fullset/2012/11/12/0/FN_Ina-Garten-Real-Meatballs-and-Spaghetti_s4x3.jpg.rend.hgtvcom.406.305.jpeg',
     desc: 'Mom\'s traditional old style spaghetti and meatballs. Our #1 top seller!',
     price: 1724,
     status: 'available'

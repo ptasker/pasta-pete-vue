@@ -12,7 +12,9 @@ new Vue({
     a: 1
   },
   template: '<App/>',
-  components: { App },
+  components: {
+    App
+  },
   created: function () {
     // `this` points to the vm instance
     console.log('a is: ' + this.a)
