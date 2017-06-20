@@ -2,7 +2,9 @@
   <div id="app">
     <img src="./assets/logo.png" class="logo">
     <header class="top">
-      <h1>Pete's Pasta <span role="img" aria-label="Pasta">🍝</span></h1>
+      <h1>Pete's Pasta
+        <span role="img" aria-label="Pasta">🍝</span>
+      </h1>
       <h3 class="tagline">
         <span>The best sauce in the Ottawa Valley!</span>
       </h3>
@@ -32,7 +34,7 @@ export default {
     handleOrder: function (key) {
 
       if (!this.orders.hasOwnProperty(key)) {
-        this.orders[key] = {count:0};
+        this.$set(this.orders, key, { count: 0 });
       }
 
       this.orders[key].count += 1;
